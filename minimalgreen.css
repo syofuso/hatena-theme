@@ -1,3 +1,4 @@
+@charset "utf-8";
 /*
   Theme: Mnimal Green
   Author: syofuso
@@ -5,8 +6,6 @@
   2カラムでミニマルなレスポンシブデザインのテーマです
   Responsive: yes
  */
-
-@charset "utf-8";
 html {
   font-family: sans-serif;
   /* 1 */
