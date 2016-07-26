@@ -1054,7 +1054,7 @@ a.entry-see-more:hover {
 }
 .hatena-module {
   padding-top: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .hatena-module-title {
   font-weight: bold;
@@ -1251,8 +1251,8 @@ a.entry-see-more:hover {
 
 /*ページ上部へ戻る*/
 .pagetop{display:none; position:fixed; bottom:30px; right:55px}
-.pagetop a{display:block; width:50px; height:50px; background-color:#47a89c; border-radius:50px; text-align:center; color:#fff !important; font-size:24px; text-decoration:none; line-height:50px;  -ms-filter:"alpha(opacity=80)";  -moz-opacity:0.8;  -khtml-opacity:0.8;  opacity:0.8}
-.pagetop a:hover{ background-color:#47a89c;  -ms-filter:"alpha(opacity=80)";  -moz-opacity:0.8;  -khtml-opacity:0.8;  opacity:0.8}
+.pagetop a{display:block; width:50px; height:50px; background-color:#47a89c; border-radius:50px; text-align:center; color:#fff; font-size:24px; text-decoration:none; line-height:50px;  -ms-filter:"alpha(opacity=80)";  -moz-opacity:0.8;  -khtml-opacity:0.8;  opacity:0.8}
+.pagetop a:hover{ background-color:#47a89c;  -ms-filter:"alpha(opacity=50)";  -moz-opacity:0.5;  -khtml-opacity:0.5;  opacity:0.5}
 
 /* About ページ */
 .page-about dt {
@@ -1386,7 +1386,6 @@ body,.entry-title,.entry-content {
   #box2-inner {
     width: 100%;
   }
-  #blog-title-inner,
   #content-inner,
   #footer-inner,
   .breadcrumb-inner {
@@ -1408,6 +1407,11 @@ body,.entry-title,.entry-content {
     margin: 0;
     padding: 0;
   }
+  #container #content {
+    width: 93.75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   #title {
     font-size: 120%;
     padding-left: 20px;
@@ -1415,17 +1419,16 @@ body,.entry-title,.entry-content {
   #blog-title {
     padding: 20px 0;
   }
-
+  #content-inner,
+  #footer-inner,
+  .breadcrumb-inner {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
   .entry-content img:hover {
   box-shadow: 0 0;
   }
 
 .entry-header .date{position:relative;left:0;width:60px;height:40px;padding:10px 0;border:3px solid #47a89c;border-radius:50%;background:#fff;color:##47a89c;text-align:center;line-height:20px;font-family:Helvetica,Arial,sans-serif;font-size:11px;}
-  #blog-title-inner,
-  #content-inner,
-  #footer-inner,
-  .breadcrumb-inner {
-    padding-right: 10px;
-    padding-leftt: 10px;
-  }
+
 }
