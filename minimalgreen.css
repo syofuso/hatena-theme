@@ -492,7 +492,7 @@ a.keyword {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   overflow: hidden;
 
 }
@@ -556,7 +556,7 @@ a.keyword {
 .header-image-enable #blog-description {
 margin-left: auto;
 margin-right: auto;
-   padding-left: 20px;
+padding-left: 20px;
 }
 
 /* Header-Image */
@@ -583,7 +583,6 @@ margin-right: auto;
 }
 #menu-inner{
     width: 100%;
-
     height: 40px;/*２*/
     margin: 0 auto;
     background: #47a89c;/*８*/
@@ -611,7 +610,7 @@ margin-right: auto;
     line-height: 40px;/*２*/
     background: #47a89c;/*９*/
     color: #fff;/*10*/
-    font-size: 70%;
+    font-size: 80%;
     text-decoration: none;
     z-index: 2;
 }
@@ -647,7 +646,7 @@ margin-right: auto;
     line-height: 40px;/*５*/
     background: #47a89c;/*13*/
     color: #fff;/*14*/
-    font-size: 70%;
+    font-size: 80%;
     text-decoration: none;
 }
 #menu-content > li > ul.second-content > li > a:hover{
@@ -693,14 +692,16 @@ margin-right: auto;
 /* パンくず（カテゴリーページで表示されます） */
 #top-box {
   font-size: 90%;
-  border-bottom: 1px solid #e4e4e4;
-  border-top: 1px solid #e4e4e4;
+  border: 1px solid #e4e4e4;
 }
  .breadcrumb {
-  width: 1100px;
+  width: 1000px;
   margin: 0 auto;
   padding: 24px 0;
   text-align: left;
+}
+.page-entry .breadcrumb {
+    margin-bottom: 0;
 }
 /* entry */
 .entry {
@@ -1178,7 +1179,7 @@ a.entry-see-more:hover {
 
 .pager-next a:before,.pager-prev a:before{
 	display:block;
-	font-family:"blogicon";
+	font-family: "blogicon";
 	width:50px;
 	height:50px;
 	margin:0 auto 10px;
@@ -1203,7 +1204,6 @@ a.entry-see-more:hover {
 .pager-arrow{
 	display:none;
 }
-
 .category-page{
     padding: 20px;
     margin: 10px 0 10px 0;
@@ -1268,6 +1268,7 @@ a.entry-see-more:hover {
 /* archive ページ */
 .page-archive .archive-entries .archive-entry {
   margin-bottom: 3em;
+  margin-top: 40px;
 }
 .page-archive .archive-entries .entry-title {
   font-size: 130%;
@@ -1294,7 +1295,7 @@ a.entry-see-more:hover {
   *zoom: 1;
   margin-right: 2px;
 }
-
+#archive-heading {margin-top: 40px;}
 body,.entry-title,.entry-content {
  word-break: break-all;
  overflow-wrap : break-word;
@@ -1366,9 +1367,6 @@ body,.entry-title,.entry-content {
     margin-left: auto;
     margin-right: auto;
   }
-  .header-image-enable #blog-title-inner {
-    width: 100%;
-  }
   .header-image-enable #blog-title-content {
     width: 93.75%;
     margin-left: auto;
@@ -1426,9 +1424,10 @@ body,.entry-title,.entry-content {
     padding-right: 26px;
   }
   .entry-content img:hover {
+
   box-shadow: 0 0;
   }
 
-.entry-header .date{position:relative;left:0;width:60px;height:40px;padding:10px 0;border:3px solid #47a89c;border-radius:50%;background:#fff;color:##47a89c;text-align:center;line-height:20px;font-family:Helvetica,Arial,sans-serif;font-size:11px;}
+.entry-header .date{position:relative;top:-20px;left:0;width:60px;height:40px;padding:10px 0;border:3px solid #47a89c;border-radius:50%;background:#fff;color:##47a89c;text-align:center;line-height:20px;font-family:Helvetica,Arial,sans-serif;font-size:11px;}
 
 }
