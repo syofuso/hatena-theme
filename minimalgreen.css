@@ -4,6 +4,8 @@
   Author: syofuso
   Description:
   2カラムでミニマルなレスポンシブデザインのテーマです
+  License: CC BY 2.1 JP
+  License URI: https://creativecommons.org/licenses/by/2.1/jp/
   Responsive: yes
  */
 
@@ -1259,7 +1261,7 @@ a.entry-see-more:hover {
 }
 .pager .pager-next, .pager .pager-prev {
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 10px;
 }
 .pager a {
 	display: inline-block;
@@ -1565,10 +1567,10 @@ body, .entry-title, .entry-content {
 		padding: 20px 0;
 	}
 	.breadcrumb {
-		width: 100%;
+		width: inherit;
 	}
 	#footer-inner, .center-inner, {
-		width: 83.9%;
+		width: initial;
 		margin-left: auto;
 		margin-right: auto;
 	}
